@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şirket Çalışan Yönetimi Uygulaması</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <button class="calisanEkle">Çalışan Ekle</button>
+            <button class="calisanBul">Çalışan Filtrele</button>
+        </div>
+
+        <div class="filtre">
+            <input class="filtrele" type="text" placeholder="İsim veya email giriniz..">
+            <button class="ara" onclick="compare()">ara</button>
+        </div>
+
+        <div class="liste">
+            <div class="calisanOrnek">
+                <div class="calisan-ad">
+                    <div ><strong>İsim:</strong><span class="ad-soyad" contenteditable="true" style="outline:none"></span></div>
+                    <div class="icons">
+                        <div class="delete"><i class="fa-solid fa-xmark"></i></div>
+                        <div class="arrow"><i class="fa-solid fa-arrow-down"></i></div>
+                    </div>
+                </div>
+                <div class="calisan-bilgi">
+                    <div class="calisan-email"><strong>Email:</strong><span class="email" contenteditable style="outline:none"></span></div>
+                    <div class="calisan-yas"><strong>Yaş:</strong><span class="yas" contenteditable style="outline:none"></span></div>
+                    <div class="calisan-maas"><strong>Maaş:</strong><span class="maas" contenteditable style="outline:none"></span></div>
+                    <button class="kaydet">Kaydet</button>
+
+                </div>
+            </div>   
+        </div>  
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

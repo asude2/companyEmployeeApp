@@ -1,0 +1,126 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calisan-ad{
+    border:1px solid rgb(126, 125, 125);
+    width: 20%;
+    min-width: 15rem;
+    margin:10px;
+    padding:15px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.calisan-ad i{
+    color:#007bff;
+}
+
+.liste{
+    align-items: center;
+    display:inline
+}
+
+.calisan-bilgi div{
+    border:0.1px solid rgb(218, 210, 210);
+    width:20%;
+    min-width: 14rem;
+    margin:2px 10px;
+    border-radius: 10px;
+    padding:3px 10px;   
+}
+
+.calisanEkle{
+    padding:15px 30px;
+    border-radius: 15px;
+    background-color: #007bff;
+    color:white;
+    border:1px solid #007bff;
+    cursor: pointer;
+}
+.calisanBul{
+    background-color: rgb(255, 255, 255);
+    padding:15px 20px;
+    border-radius: 15px;
+    color:#007bff;
+    border:2px solid #007bff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.calisanEkle:hover{
+    background-color: #0374ed;
+}
+.calisanBul:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+
+.icons{
+    display: flex;
+    cursor: pointer;
+}
+.delete{
+    padding:0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.delete:hover{
+    color: black;
+}
+
+.calisan-bilgi{
+    display:none;
+}
+
+.filtrele{
+    width:12rem;
+    margin-top: 10px;
+    padding:8px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border:3px solid #3395ff;
+    display: none;
+}
+
+.ara{
+    display: none;
+    width:60px;
+    height: 35px;
+    margin-top:11px;
+    margin-left:5px;
+    background-color: rgb(0, 136, 255);
+    color:white;
+    border:1px solid rgb(0, 136, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ara:hover{
+    background-color: black;
+    border:1px solid black;
+    transition:ease 0.3s
+}
+
+.filtre{
+    display: flex;
+}
+
+.kaydet{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin:2px 10px; 
+    cursor: pointer;
+    border:1px solid black;
+}
+
+
+
+
+
+
+
